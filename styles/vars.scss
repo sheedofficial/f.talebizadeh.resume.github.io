@@ -1,0 +1,18 @@
+$text-primary: black;
+$text-secondary: #424242;
+$text-btn-dark: #45505b;
+$link-hover: #0563bb;
+
+$bg-primary: #f2f2f2;
+$menu-btn-primary: #f2f3f5;
+$heart-bg : #c11;
+
+$list1: #FFAFBD 0%, #ffc3a0  51%, #FFAFBD  100%;
+
+
+@mixin gradient($direction, $list) {
+    background: -webkit-linear-gradient($direction, $list);
+    background: -moz-linear-gradient($direction, $list);
+    background: -o-linear-gradient($direction, $list);
+    background: linear-gradient($direction, $list); 
+}
